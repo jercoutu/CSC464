@@ -67,7 +67,6 @@ public class SleepingBarber{
 						chairs[i].acquire();
 					}catch(InterruptedException e){}
 					chairs[i+1].release();
-					System.out.println("Customer "+id+" has moved from chair "+(i+1)+" to chair "+i+".");
 				}
 				getHairCut();
 			}
