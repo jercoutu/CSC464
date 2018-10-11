@@ -21,7 +21,7 @@ func museum() {
 	for ch, ok := <-lobby; ok ; ch, ok = <-lobby {
 		fmt.Println("Customer", <-ch, "enters the Museum.")
 		time.Sleep(500)
-		fmt.Println("Customer exists the museum")
+		fmt.Println("Customer exits the museum")
 		ch <- 0
 	}
 }
