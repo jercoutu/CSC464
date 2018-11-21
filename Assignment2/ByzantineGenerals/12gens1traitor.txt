@@ -1,0 +1,422 @@
+how many generals and traitors ?
+Started 12 generals.
+Generals finished, exiting
+Reporting for duty... ... assigned id 10
+Reporting for duty... ... assigned id 9
+Reporting for duty... ... assigned id 11
+[11] send Round(0 ) of messages[]
+Reporting for duty... ... assigned id 6
+Reporting for duty... ... assigned id 7
+Reporting for duty... ... assigned id 8
+[7] send Round(0 ) of messages[]
+	[7] await message
+[6] send Round(0 ) of messages[]
+Reporting for duty... ... assigned id 1
+Reporting for duty... ... assigned id 0
+Reporting for duty... ... assigned id 2
+Reporting for duty... ... assigned id 3
+[3] send Round(0 ) of messages[]
+	[11] await message
+Reporting for duty... ... assigned id 4
+[9] send Round(0 ) of messages[]
+Reporting for duty... ... assigned id 5
+[10] send Round(0 ) of messages[]
+[5] send Round(0 ) of messages[]
+	[9] await message
+[4] send Round(0 ) of messages[]
+	[3] await message
+[2] send Round(0 ) of messages[]
+[1] send Round(0 ) of messages[]
+	[6] await message
+[8] send Round(0 ) of messages[]
+	[1] await message
+	[2] await message
+	[4] await message
+	[5] await message
+[0] send Round(0 ) of messages[M:false,[0]]
+	[10] await message
+	[0] await message
+	[8] await message
+Process [8] receiveRound(0)
+Process [7] receiveRound(0)
+Process [2] receiveRound(0)
+	 Process [2] await receives
+Process [10] receiveRound(0)
+	 Process [10] await receives
+Process [5] receiveRound(0)
+	 Process [5] await receives
+Process [4] receiveRound(0)
+	 Process [4] await receives
+	 Process [7] await receives
+Process [1] receiveRound(0)
+	 Process [1] await receives
+Process [6] receiveRound(0)
+	 Process [6] await receives
+Process [3] receiveRound(0)
+	 Process [3] await receives
+Process [11] receiveRound(0)
+	 Process [11] await receives
+	 Process [8] await receives
+Process [9] receiveRound(0)
+
+
+ We are attacking this round T or F 	false
+	 Process [9] await receives
+
+	---Clearing messages.--- 
+
+Process [9]  receiveRound(0) -> [M:false,[0]]
+Process [1]  receiveRound(0) -> [M:false,[0]]
+Process [3]  receiveRound(0) -> [M:false,[0]]
+Process [11]  receiveRound(0) -> [M:false,[0]]
+Process [7]  receiveRound(0) -> [M:false,[0]]
+Process [8]  receiveRound(0) -> [M:false,[0]]
+Process [5]  receiveRound(0) -> [M:false,[0]]
+Process [10]  receiveRound(0) -> [M:false,[0]]
+Process [4]  receiveRound(0) -> [M:false,[0]]
+	[4] insert(..round 0..) -> root MessageNode@701e866
+Process [2]  receiveRound(0) -> [M:false,[0]]
+	[1] insert(..round 0..) -> root MessageNode@b148489
+	[3] insert(..round 0..) -> root MessageNode@6d9da26a
+	[11] insert(..round 0..) -> root MessageNode@6d5af378
+	[10] insert(..round 0..) -> root MessageNode@dc7a4fc
+	[8] insert(..round 0..) -> root MessageNode@48369750
+	[9] insert(..round 0..) -> root MessageNode@2770f418
+	[7] insert(..round 0..) -> root MessageNode@269f3a67
+	[5] insert(..round 0..) -> root MessageNode@71d9ab02
+Process [6]  receiveRound(0) -> [M:false,[0]]
+	[6] insert(..round 0..) -> root MessageNode@d9d8ad0
+[5] send Round(1 ) of messages[M:false,[0, 5]]
+[7] send Round(1 ) of messages[M:false,[0, 7]]
+[9] send Round(1 ) of messages[M:false,[0, 9]]
+[8] send Round(1 ) of messages[M:false,[0, 8]]
+[10] send Round(1 ) of messages[M:false,[0, 10]]
+[11] send Round(1 ) of messages[M:false,[0, 11]]
+[3] send Round(1 ) of messages[M:false,[0, 3]]
+[1] send Round(1 ) of messages[M:false,[0, 1]]
+[4] send Round(1 ) of messages[M:false,[0, 4]]
+	[2] insert(..round 0..) -> root MessageNode@1b73c3bb
+	[4] await message
+	[1] await message
+	[3] await message
+	[11] await message
+	[10] await message
+	[8] await message
+	[9] await message
+	[7] await message
+	[5] await message
+[6] send Round(1 ) of messages[M:false,[0, 6]]
+[2] send Round(1 ) of messages[M:false,[0, 2]]
+	[6] await message
+	[2] await message
+Process [2] receiveRound(1)
+	 Process [2] await receives
+Process [4] receiveRound(1)
+	 Process [4] await receives
+Process [3] receiveRound(1)
+Process [8] receiveRound(1)
+	 Process [8] await receives
+Process [1] receiveRound(1)
+	 Process [1] await receives
+Process [6] receiveRound(1)
+Process [5] receiveRound(1)
+	 Process [5] await receives
+Process [7] receiveRound(1)
+	 Process [3] await receives
+Process [9] receiveRound(1)
+Process [10] receiveRound(1)
+Process [11] receiveRound(1)
+	 Process [11] await receives
+	 Process [10] await receives
+	 Process [9] await receives
+	 Process [7] await receives
+	 Process [6] await receives
+
+	---Clearing messages.--- 
+
+Process [6]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+Process [2]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+Process [8]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+Process [5]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+Process [11]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+Process [9]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+[5] findParent(M:false,[0, 5], 1) -> nMessageNode@71d9ab02
+Process [7]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+	[5]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+[9] findParent(M:false,[0, 5], 1) -> nMessageNode@2770f418
+[5] findParent(M:false,[0, 7], 1) -> nMessageNode@71d9ab02
+Process [4]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+	[5]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+[7] findParent(M:false,[0, 5], 1) -> nMessageNode@269f3a67
+	[7]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+[7] findParent(M:false,[0, 7], 1) -> nMessageNode@269f3a67
+	[9]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+	[7]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+[2] findParent(M:false,[0, 5], 1) -> nMessageNode@1b73c3bb
+[8] findParent(M:false,[0, 5], 1) -> nMessageNode@48369750
+Process [10]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+	[2]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+Process [1]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+Process [3]  receiveRound(1) -> [M:false,[0, 5], M:false,[0, 7], M:false,[0, 9], M:false,[0, 8], M:false,[0, 10], M:false,[0, 11], M:false,[0, 3], M:false,[0, 1], M:false,[0, 4], M:false,[0, 6], M:false,[0, 2]]
+[7] findParent(M:false,[0, 9], 1) -> nMessageNode@269f3a67
+[9] findParent(M:false,[0, 7], 1) -> nMessageNode@2770f418
+[10] findParent(M:false,[0, 5], 1) -> nMessageNode@dc7a4fc
+[1] findParent(M:false,[0, 5], 1) -> nMessageNode@b148489
+[2] findParent(M:false,[0, 7], 1) -> nMessageNode@1b73c3bb
+[6] findParent(M:false,[0, 5], 1) -> nMessageNode@d9d8ad0
+	[8]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+	[6]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+	[2]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+	[10]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+[5] findParent(M:false,[0, 9], 1) -> nMessageNode@71d9ab02
+	[9]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+[11] findParent(M:false,[0, 5], 1) -> nMessageNode@6d5af378
+[4] findParent(M:false,[0, 5], 1) -> nMessageNode@701e866
+	[7]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+[3] findParent(M:false,[0, 5], 1) -> nMessageNode@6d9da26a
+[7] findParent(M:false,[0, 8], 1) -> nMessageNode@269f3a67
+	[4]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+	[11]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+[9] findParent(M:false,[0, 9], 1) -> nMessageNode@2770f418
+	[5]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+[10] findParent(M:false,[0, 7], 1) -> nMessageNode@dc7a4fc
+[1] findParent(M:false,[0, 7], 1) -> nMessageNode@b148489
+[2] findParent(M:false,[0, 9], 1) -> nMessageNode@1b73c3bb
+[6] findParent(M:false,[0, 7], 1) -> nMessageNode@d9d8ad0
+[8] findParent(M:false,[0, 7], 1) -> nMessageNode@48369750
+	[6]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+	[2]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+	[10]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+[5] findParent(M:false,[0, 8], 1) -> nMessageNode@71d9ab02
+	[9]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+[11] findParent(M:false,[0, 7], 1) -> nMessageNode@6d5af378
+[4] findParent(M:false,[0, 7], 1) -> nMessageNode@701e866
+	[7]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+	[3]insert(M:false,[0, 5],1 ) -> parent M:false,[0]
+[7] findParent(M:false,[0, 10], 1) -> nMessageNode@269f3a67
+	[4]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+	[11]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+[9] findParent(M:false,[0, 8], 1) -> nMessageNode@2770f418
+	[5]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+[10] findParent(M:false,[0, 9], 1) -> nMessageNode@dc7a4fc
+[1] findParent(M:false,[0, 9], 1) -> nMessageNode@b148489
+[2] findParent(M:false,[0, 8], 1) -> nMessageNode@1b73c3bb
+[6] findParent(M:false,[0, 9], 1) -> nMessageNode@d9d8ad0
+	[8]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+	[6]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+	[2]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+	[10]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+[10] findParent(M:false,[0, 8], 1) -> nMessageNode@dc7a4fc
+	[10]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+[5] findParent(M:false,[0, 10], 1) -> nMessageNode@71d9ab02
+	[9]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+[9] findParent(M:false,[0, 10], 1) -> nMessageNode@2770f418
+	[9]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+[9] findParent(M:false,[0, 11], 1) -> nMessageNode@2770f418
+	[9]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+[11] findParent(M:false,[0, 9], 1) -> nMessageNode@6d5af378
+[4] findParent(M:false,[0, 9], 1) -> nMessageNode@701e866
+	[7]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+[3] findParent(M:false,[0, 7], 1) -> nMessageNode@6d9da26a
+[7] findParent(M:false,[0, 11], 1) -> nMessageNode@269f3a67
+	[3]insert(M:false,[0, 7],1 ) -> parent M:false,[0]
+	[4]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+	[11]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+[9] findParent(M:false,[0, 3], 1) -> nMessageNode@2770f418
+	[5]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+[10] findParent(M:false,[0, 10], 1) -> nMessageNode@dc7a4fc
+[1] findParent(M:false,[0, 8], 1) -> nMessageNode@b148489
+[2] findParent(M:false,[0, 10], 1) -> nMessageNode@1b73c3bb
+[6] findParent(M:false,[0, 8], 1) -> nMessageNode@d9d8ad0
+[8] findParent(M:false,[0, 9], 1) -> nMessageNode@48369750
+	[6]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+	[2]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+	[10]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+[5] findParent(M:false,[0, 11], 1) -> nMessageNode@71d9ab02
+	[9]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+[11] findParent(M:false,[0, 8], 1) -> nMessageNode@6d5af378
+[4] findParent(M:false,[0, 8], 1) -> nMessageNode@701e866
+[3] findParent(M:false,[0, 9], 1) -> nMessageNode@6d9da26a
+	[7]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+	[3]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+	[4]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+	[11]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+[9] findParent(M:false,[0, 1], 1) -> nMessageNode@2770f418
+	[5]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+[10] findParent(M:false,[0, 11], 1) -> nMessageNode@dc7a4fc
+[1] findParent(M:false,[0, 10], 1) -> nMessageNode@b148489
+[2] findParent(M:false,[0, 11], 1) -> nMessageNode@1b73c3bb
+[6] findParent(M:false,[0, 10], 1) -> nMessageNode@d9d8ad0
+	[8]insert(M:false,[0, 9],1 ) -> parent M:false,[0]
+	[6]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+	[2]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+	[10]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+[5] findParent(M:false,[0, 3], 1) -> nMessageNode@71d9ab02
+	[9]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+[11] findParent(M:false,[0, 10], 1) -> nMessageNode@6d5af378
+[4] findParent(M:false,[0, 10], 1) -> nMessageNode@701e866
+[3] findParent(M:false,[0, 8], 1) -> nMessageNode@6d9da26a
+[7] findParent(M:false,[0, 3], 1) -> nMessageNode@269f3a67
+	[3]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+	[4]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+	[11]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+[9] findParent(M:false,[0, 4], 1) -> nMessageNode@2770f418
+	[5]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+[10] findParent(M:false,[0, 3], 1) -> nMessageNode@dc7a4fc
+[1] findParent(M:false,[0, 11], 1) -> nMessageNode@b148489
+[2] findParent(M:false,[0, 3], 1) -> nMessageNode@1b73c3bb
+[6] findParent(M:false,[0, 11], 1) -> nMessageNode@d9d8ad0
+[8] findParent(M:false,[0, 8], 1) -> nMessageNode@48369750
+	[6]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+	[2]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+	[10]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+[5] findParent(M:false,[0, 1], 1) -> nMessageNode@71d9ab02
+	[9]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+[11] findParent(M:false,[0, 11], 1) -> nMessageNode@6d5af378
+[4] findParent(M:false,[0, 11], 1) -> nMessageNode@701e866
+[3] findParent(M:false,[0, 10], 1) -> nMessageNode@6d9da26a
+	[7]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+	[3]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+	[4]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+	[11]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+[9] findParent(M:false,[0, 6], 1) -> nMessageNode@2770f418
+	[5]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+[10] findParent(M:false,[0, 1], 1) -> nMessageNode@dc7a4fc
+[1] findParent(M:false,[0, 3], 1) -> nMessageNode@b148489
+[2] findParent(M:false,[0, 1], 1) -> nMessageNode@1b73c3bb
+[6] findParent(M:false,[0, 3], 1) -> nMessageNode@d9d8ad0
+	[8]insert(M:false,[0, 8],1 ) -> parent M:false,[0]
+	[6]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+	[2]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+	[10]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+[5] findParent(M:false,[0, 4], 1) -> nMessageNode@71d9ab02
+	[9]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+[11] findParent(M:false,[0, 3], 1) -> nMessageNode@6d5af378
+[4] findParent(M:false,[0, 3], 1) -> nMessageNode@701e866
+[3] findParent(M:false,[0, 11], 1) -> nMessageNode@6d9da26a
+[7] findParent(M:false,[0, 1], 1) -> nMessageNode@269f3a67
+	[3]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+	[4]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+	[11]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+[9] findParent(M:false,[0, 2], 1) -> nMessageNode@2770f418
+	[5]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+[10] findParent(M:false,[0, 4], 1) -> nMessageNode@dc7a4fc
+[1] findParent(M:false,[0, 1], 1) -> nMessageNode@b148489
+[2] findParent(M:false,[0, 4], 1) -> nMessageNode@1b73c3bb
+[6] findParent(M:false,[0, 1], 1) -> nMessageNode@d9d8ad0
+[8] findParent(M:false,[0, 10], 1) -> nMessageNode@48369750
+	[6]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+	[2]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+	[10]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+[5] findParent(M:false,[0, 6], 1) -> nMessageNode@71d9ab02
+	[9]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+[11] findParent(M:false,[0, 1], 1) -> nMessageNode@6d5af378
+[4] findParent(M:false,[0, 1], 1) -> nMessageNode@701e866
+[3] findParent(M:false,[0, 3], 1) -> nMessageNode@6d9da26a
+	[7]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+	[3]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+	[4]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+	[11]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+
+
+ We are attacking this round T or F 	false
+	[5]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+[10] findParent(M:false,[0, 6], 1) -> nMessageNode@dc7a4fc
+[1] findParent(M:false,[0, 4], 1) -> nMessageNode@b148489
+[2] findParent(M:false,[0, 6], 1) -> nMessageNode@1b73c3bb
+[6] findParent(M:false,[0, 4], 1) -> nMessageNode@d9d8ad0
+	[8]insert(M:false,[0, 10],1 ) -> parent M:false,[0]
+	[6]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+	[2]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+	[10]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+[5] findParent(M:false,[0, 2], 1) -> nMessageNode@71d9ab02
+[11] findParent(M:false,[0, 4], 1) -> nMessageNode@6d5af378
+[4] findParent(M:false,[0, 4], 1) -> nMessageNode@701e866
+[3] findParent(M:false,[0, 1], 1) -> nMessageNode@6d9da26a
+[7] findParent(M:false,[0, 4], 1) -> nMessageNode@269f3a67
+	[3]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+	[4]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+	[11]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+	[5]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+[10] findParent(M:false,[0, 2], 1) -> nMessageNode@dc7a4fc
+[11] findParent(M:false,[0, 6], 1) -> nMessageNode@6d5af378
+	[10]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+[1] findParent(M:false,[0, 6], 1) -> nMessageNode@b148489
+[2] findParent(M:false,[0, 2], 1) -> nMessageNode@1b73c3bb
+[6] findParent(M:false,[0, 6], 1) -> nMessageNode@d9d8ad0
+[8] findParent(M:false,[0, 11], 1) -> nMessageNode@48369750
+	[6]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+	[2]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+
+
+ We are attacking this round T or F 	false
+	[11]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+[4] findParent(M:false,[0, 6], 1) -> nMessageNode@701e866
+
+
+ We are attacking this round T or F 	false
+[3] findParent(M:false,[0, 4], 1) -> nMessageNode@6d9da26a
+	[7]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+	[3]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+	[4]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+[11] findParent(M:false,[0, 2], 1) -> nMessageNode@6d5af378
+[1] findParent(M:false,[0, 2], 1) -> nMessageNode@b148489
+
+
+ We are attacking this round T or F 	false
+[6] findParent(M:false,[0, 2], 1) -> nMessageNode@d9d8ad0
+	[8]insert(M:false,[0, 11],1 ) -> parent M:false,[0]
+	[6]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+	[1]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+	[11]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+[4] findParent(M:false,[0, 2], 1) -> nMessageNode@701e866
+[3] findParent(M:false,[0, 6], 1) -> nMessageNode@6d9da26a
+[7] findParent(M:false,[0, 6], 1) -> nMessageNode@269f3a67
+	[3]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+	[4]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+
+
+ We are attacking this round T or F 	false
+
+
+ We are attacking this round T or F 	false
+
+
+ We are attacking this round T or F 	false
+[8] findParent(M:false,[0, 3], 1) -> nMessageNode@48369750
+
+
+ We are attacking this round T or F 	false
+[3] findParent(M:false,[0, 2], 1) -> nMessageNode@6d9da26a
+	[7]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+	[3]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+	[8]insert(M:false,[0, 3],1 ) -> parent M:false,[0]
+
+
+ We are attacking this round T or F 	false
+[7] findParent(M:false,[0, 2], 1) -> nMessageNode@269f3a67
+[8] findParent(M:false,[0, 1], 1) -> nMessageNode@48369750
+	[8]insert(M:false,[0, 1],1 ) -> parent M:false,[0]
+[8] findParent(M:false,[0, 4], 1) -> nMessageNode@48369750
+	[8]insert(M:false,[0, 4],1 ) -> parent M:false,[0]
+[8] findParent(M:false,[0, 6], 1) -> nMessageNode@48369750
+	[8]insert(M:false,[0, 6],1 ) -> parent M:false,[0]
+[8] findParent(M:false,[0, 2], 1) -> nMessageNode@48369750
+	[8]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+	[7]insert(M:false,[0, 2],1 ) -> parent M:false,[0]
+
+
+ We are attacking this round T or F 	false
+
+
+ We are attacking this round T or F 	false

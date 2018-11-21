@@ -1,0 +1,122 @@
+how many generals and traitors ?
+Started 12 generals.
+Generals finished, exiting
+Reporting for duty... ... assigned id 7
+Reporting for duty... ... assigned id 8
+Reporting for duty... ... assigned id 11
+Reporting for duty... ... assigned id 9
+[11] send Round(0 ) of messages[]
+Reporting for duty... ... assigned id 10
+	[11] await message
+[9] send Round(0 ) of messages[]
+[8] send Round(0 ) of messages[]
+[7] send Round(0 ) of messages[]
+Reporting for duty... ... assigned id 2
+Reporting for duty... ... assigned id 0
+Reporting for duty... ... assigned id 1
+Reporting for duty... ... assigned id 3
+[3] send Round(0 ) of messages[]
+Reporting for duty... ... assigned id 4
+Reporting for duty... ... assigned id 5
+[5] send Round(0 ) of messages[]
+	[5] await message
+Reporting for duty... ... assigned id 6
+[4] send Round(0 ) of messages[]
+[6] send Round(0 ) of messages[]
+	[4] await message
+	[3] await message
+[1] send Round(0 ) of messages[]
+[2] send Round(0 ) of messages[]
+	[7] await message
+	[8] await message
+	[9] await message
+[10] send Round(0 ) of messages[]
+	[2] await message
+	[1] await message
+	[6] await message
+[0] send Round(0 ) of messages[M:false,[0]]
+	[10] await message
+	[0] await message
+
+
+ We are attacking this round T or F 	false
+Process [11] receiveRound(0)
+Process [7] receiveRound(0)
+Process [6] receiveRound(0)
+	 Process [6] await receives
+Process [3] receiveRound(0)
+	 Process [3] await receives
+Process [4] receiveRound(0)
+	 Process [4] await receives
+Process [5] receiveRound(0)
+	 Process [5] await receives
+Process [10] receiveRound(0)
+	 Process [10] await receives
+	 Process [7] await receives
+Process [1] receiveRound(0)
+Process [2] receiveRound(0)
+Process [9] receiveRound(0)
+	 Process [11] await receives
+Process [8] receiveRound(0)
+	 Process [8] await receives
+	 Process [9] await receives
+	 Process [2] await receives
+	 Process [1] await receives
+
+	---Clearing messages.--- 
+
+Process [1]  receiveRound(0) -> [M:false,[0]]
+Process [4]  receiveRound(0) -> [M:false,[0]]
+Process [3]  receiveRound(0) -> [M:false,[0]]
+Process [10]  receiveRound(0) -> [M:false,[0]]
+Process [7]  receiveRound(0) -> [M:false,[0]]
+Process [6]  receiveRound(0) -> [M:false,[0]]
+Process [11]  receiveRound(0) -> [M:false,[0]]
+Process [5]  receiveRound(0) -> [M:false,[0]]
+Process [9]  receiveRound(0) -> [M:false,[0]]
+	[1] insert(..round 0..) -> root MessageNode@7549bbda
+Process [8]  receiveRound(0) -> [M:false,[0]]
+	[3] insert(..round 0..) -> root MessageNode@1bcc4803
+
+
+ We are attacking this round T or F 	false
+	[10] insert(..round 0..) -> root MessageNode@29580e2d
+	[7] insert(..round 0..) -> root MessageNode@1b73c3bb
+Process [2]  receiveRound(0) -> [M:false,[0]]
+	[11] insert(..round 0..) -> root MessageNode@659a9c4b
+	[6] insert(..round 0..) -> root MessageNode@b148489
+	[9] insert(..round 0..) -> root MessageNode@6d5af378
+	[5] insert(..round 0..) -> root MessageNode@4cf319d1
+
+
+ We are attacking this round T or F 	false
+
+
+ We are attacking this round T or F 	false
+
+
+ We are attacking this round T or F 	false
+	[2] insert(..round 0..) -> root MessageNode@73130892
+
+
+ We are attacking this round T or F 	false
+
+
+ We are attacking this round T or F 	false
+
+
+ We are attacking this round T or F 	false
+	[4] insert(..round 0..) -> root MessageNode@2770f418
+
+
+ We are attacking this round T or F 	false
+	[8] insert(..round 0..) -> root MessageNode@dc7a4fc
+
+
+ We are attacking this round T or F 	false
+
+
+ We are attacking this round T or F 	false
+
+
+ We are attacking this round T or F 	false
