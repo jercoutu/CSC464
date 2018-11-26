@@ -4,7 +4,7 @@ EXTENDS Sequences, TLC
 
 (*--algorithm Wheel
 variables
-  to_turn = <<Left, Neutral, Right>>,
+  to_turn = <<Left, Neutral, Right, Push, Pull>>,
   received = <<>>,
   turning = {};
 begin
@@ -26,7 +26,7 @@ begin
     end either;
 
   end while;
-assert received = <<Left, Neutral, Right>>;
+assert received = <<Left, Neutral, Right, Push, Pull>>;
 end algorithm; *)
 
 \* BEGIN TRANSLATION
@@ -35,7 +35,7 @@ VARIABLES to_turn, received, turning, pc
 vars == << to_turn, received, turning, pc >>
 
 Init == (* Global variables *)
-        /\ to_turn = <<Left, Neutral, Right>>
+        /\ to_turn = <<Left, Neutral, Right, Push, Pull>>
         /\ received = <<>>
         /\ turning = {}
         /\ pc = "Lbl_1"
@@ -50,7 +50,7 @@ Lbl_1 == /\ pc = "Lbl_1"
                     /\ \/ /\ pc' = "Lbl_2"
                        \/ /\ TRUE
                           /\ pc' = "Lbl_1"
-               ELSE /\ Assert(received = <<Left, Neutral, Right>>,
+               ELSE /\ Assert(received = <<Left, Neutral, Right, Push, Pull>>,
                               "Failure of assertion at line 32, column 1.")
                     /\ pc' = "Done"
                     /\ UNCHANGED << to_turn, turning >>
